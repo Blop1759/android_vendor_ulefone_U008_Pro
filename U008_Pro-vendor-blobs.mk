@@ -78,7 +78,19 @@ PRODUCT_COPY_FILES += \
     vendor/ulefone/U008_Pro/proprietary/bin/uiautomator:system/bin/uiautomator \
     vendor/ulefone/U008_Pro/proprietary/bin/wifi2agps:system/bin/wifi2agps \
     vendor/ulefone/U008_Pro/proprietary/bin/wmt_loader:system/bin/wmt_loader \
-    vendor/ulefone/U008_Pro/proprietary/bin/xlog:system/bin/xlog
+    vendor/ulefone/U008_Pro/proprietary/bin/xlog:system/bin/xlog \
+    vendor/ulefone/U008_Pro/proprietary/bin/batterywarning:system/bin/batterywarning \
+    vendor/ulefone/U008_Pro/proprietary/bin/emdlogger1:system/bin/emdlogger1 \
+    vendor/ulefone/U008_Pro/proprietary/bin/fuelgauged:system/bin/fuelgauged \
+    vendor/ulefone/U008_Pro/proprietary/bin/gas_srv:system/bin/gas_srv \
+    vendor/ulefone/U008_Pro/proprietary/bin/ged_srv:system/bin/ged_srv \
+    vendor/ulefone/U008_Pro/proprietary/bin/magd:system/bin/magd \
+    vendor/ulefone/U008_Pro/proprietary/bin/matv:system/bin/matv \
+    vendor/ulefone/U008_Pro/proprietary/bin/radvd:system/bin/radvd \
+    vendor/ulefone/U008_Pro/proprietary/bin/spm_loader:system/bin/spm_loader \
+    vendor/ulefone/U008_Pro/proprietary/bin/stp_dump3:system/bin/stp_dump3
+    
+    
 
 #lib
 PRODUCT_COPY_FILES += \
