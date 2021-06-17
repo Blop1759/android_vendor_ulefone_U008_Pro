@@ -20,10 +20,6 @@
 
 # Proprietary dependencies go here
 
-# Bootanimation
-#ifneq ($(filter 720,$(TARGET_SCREEN_WIDTH)),)
-    PRODUCT_COPY_FILES += \
-        vendor/ulefone/U008_Pro/proprietary/prebuilt/bootanimation/bootanimation.zip:system/media/bootanimation.zip
-#endif
+
 
 $(call inherit-product, vendor/ulefone/U008_Pro/U008_Pro-vendor-blobs.mk)
